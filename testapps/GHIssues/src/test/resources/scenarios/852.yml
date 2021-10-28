@@ -1,0 +1,13 @@
+Scenario(852):
+  description: "@PropertySpec not take effect"
+  interactions:
+    - description: test
+      request:
+        get: 852
+      response:
+        json:
+          data:
+            number:
+              - exists: true
+            id:
+              - exists: false

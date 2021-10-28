@@ -1,0 +1,12 @@
+Scenario(820):
+  description: Using generic typed injection in Controller cause `UnexpectedException`
+  interactions:
+  - description: Test
+    request:
+      get: /820
+    response:
+      json:
+        size: 3
+        0: 1
+        1: 2
+        2: 3
