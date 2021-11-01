@@ -63,7 +63,7 @@
     <jfiglet.version>0.0.8</jfiglet.version>
     <jline.version>2.14.6</jline.version>
     <jpa.version>1.0.0.Final</jpa.version>
-    <joda-time.version>2.10.6</joda-time.version>
+    <joda-time.version>2.10.12</joda-time.version>
     <jsoup.version>1.12.1</jsoup.version>
 
     <okhttp.version>4.7.2</okhttp.version>
