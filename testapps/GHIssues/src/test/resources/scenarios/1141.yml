@@ -1,8 +1,0 @@
-Scenario(1141):
-  description: "Email validation handler - not able to valid email at `thinking.studio`"
-  interactions:
-    - request:
-        get: 1141
-      response:
-        json:
-          result: true

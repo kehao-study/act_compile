@@ -1,9 +1,0 @@
-Scenario(1078):
-  description: Exception caused by @After Interceptor defined in abstract class
-  interactions:
-  - description: Test
-    request:
-      get: 1078
-    response:
-      json:
-        result: intercepted
